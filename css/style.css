@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat:wght@600&family=Playfair+Display:wght@600&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+      font-family: 'Croissant One', cursive;
+      font-weight: bold;
+      font-size: 14px;
+      background-color: #FFF;
+      padding: 30px;
+}
+
+/*Desktop responsiveness*/
+
+@media (min-width: 600px){
+  .card-container  {
+    border-radius: 50px;
+  }
+  .card-img-style{
+    border-radius: 50px;
+    background-color: white;
+  }
+
+  .header {
+    font-style: : "Regular;"
+    font-size: 48px;
+    line-height: : 68px;
+    line-height: : 100%;
+  }
+
+  .button {
+    background-color: #B26AB9;
+    width: 290px;
+    height: 72px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+  .card-container  {
+    border-radius: 50px;
+  }
+  .card-img-style{
+    border-radius: 50px;
+    background-color: white;
+  }
+ .header {
+    font-family: "Croissant";
+    font-style : "Regular";
+    font-size: 1em;
+    line-height: : 22px;
+  }
+
+  .button {
+    background-color: #B26AB9;
+    width: 92.05px;
+    height: 22.85px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+}
+
+/*Mobile screen responsiveness*/
+
+@media (max-width: 599px){
+  .card-container {
+    border-radius: 20px;
+  }
+  .card-img-style{
+    height: 291px;
+    border-radius: 17px;
+    background-color: #FFF;
+  }
+
+  .header {
+    font-family: "Croissant";
+    font-style : "Regular";
+    font-size: 5px;
+  }
+
+  .button {
+    background-color: #B26AB9;
+    width: 65px;
+    height:40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #FFF;
+  }
+}
+
+
